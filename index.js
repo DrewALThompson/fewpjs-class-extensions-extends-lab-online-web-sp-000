@@ -15,4 +15,8 @@ class Polygon{
   get perimeter(){
     return this.sides.reduce((accum, value) => accum + value);
   }
+  
+  class triangle extends Polygon {
+    
+  }
 }
