@@ -4,9 +4,10 @@ class Polygon{
     this.sideB = array[1];
     this.sideC = array[2];
     this.sideD = array[3];
+    this.sides = 
   }
   
   get countSides(){
-    return sideA + sideB + sideC + sideD;
+    return this.sideA + this.sideB + this.sideC + this.sideD;
   }
 }
