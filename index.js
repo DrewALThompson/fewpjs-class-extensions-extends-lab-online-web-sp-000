@@ -23,9 +23,9 @@ class Triangle extends Polygon {
   
   
   get isValid(){
-    let a = (this.sideB + this.sideC)/this.sideA;
-    let b = (this.sideA + this.sideC)/this.sideB;
-    let c = (this.sideA + this.sideB)/this.sideC;
+    let a = ((this.sideB + this.sideC) > this.sideA)
+    let b = ((this.sideA + this.sideC) > this.sideB);
+    let c = ((this.sideA + this.sideB) > this.sideC)
     console.log(a, b, c);
     if (this.sideCount === 3){
       
