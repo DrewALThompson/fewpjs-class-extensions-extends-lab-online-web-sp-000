@@ -38,4 +38,6 @@ class Square extends Polygon {
   get isValid(){
     return (this.sides.reduce((acc, val) => acc + val)/4) === this.sideA
   }
+  
+  
 }
