@@ -26,7 +26,7 @@ class Triangle extends Polygon {
     let a = ((this.sideB + this.sideC) > this.sideA);
     let b = ((this.sideA + this.sideC) > this.sideB);
     let c = ((this.sideA + this.sideB) > this.sideC);
-    console.log(a, b, c);
+    console.log(a);
     if (this.sideCount === 3){
       
     }
