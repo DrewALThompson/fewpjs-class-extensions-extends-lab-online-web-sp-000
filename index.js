@@ -36,7 +36,6 @@ class Triangle extends Polygon {
 class Square extends Polygon {
   
   get isValid(){
-    let a = this.sideA
-    return (a === this.sideB && a === this.sideC && a === this.sideD)
+    return (this.sides.reduce((acc, val) => acc + val)/4) === this.sideA
   }
 }
