@@ -39,5 +39,7 @@ class Square extends Polygon {
     return (this.sides.reduce((acc, val) => acc + val)/4) === this.sideA
   }
   
-  
+  get area(){
+    return this.sideA**2;
+  }
 }
