@@ -6,4 +6,7 @@ class Polygon{
     this.sideD = array[3];
   }
   
+  get countSides(){
+    return sideA + sideB + sideC + sideD;
+  }
 }
