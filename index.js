@@ -8,6 +8,6 @@ class Polygon{
   }
   
   get countSides(){
-    return sides.length;
+    return this.sides.length;
   }
 }
