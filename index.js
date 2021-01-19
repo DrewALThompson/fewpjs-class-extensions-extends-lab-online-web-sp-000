@@ -13,6 +13,6 @@ class Polygon{
   }
   
   get perimeter(){
-    return this.sides.reduce()
+    return this.sides.reduce((accum, value) => accum + value);
   }
 }
