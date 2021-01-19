@@ -5,10 +5,14 @@ class Polygon{
     this.sideC = array[2];
     this.sideD = array[3];
     this.sideCount = array.length;
-    this.sides = [this.sideA, this.sideB, this.sideC, this.sideD]
+    this.sides = array;
   }
   
   get countSides(){
     return this.sideCount;
+  }
+  
+  get perimeter(){
+    return this.sides.reduce()
   }
 }
