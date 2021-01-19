@@ -16,7 +16,8 @@ class Polygon{
     return this.sides.reduce((accum, value) => accum + value);
   }
   
-  class triangle extends Polygon {
+}
+
+class triangle extends Polygon {
     
-  }
 }
